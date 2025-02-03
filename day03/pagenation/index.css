@@ -1,0 +1,10 @@
+button {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  border: none;
+}
+
+.skyblue {
+  background-color: skyblue;
+}

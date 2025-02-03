@@ -1,0 +1,21 @@
+h2,
+ul,
+li {
+  margin: 0;
+}
+
+.navItem {
+  list-style: none;
+  display: flex;
+  padding: 0;
+
+  background-color: #e6e6e6;
+}
+
+.navItem > li {
+  padding: 10px 50px;
+}
+
+#infoBox {
+  padding: 100px;
+}

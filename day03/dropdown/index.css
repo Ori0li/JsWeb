@@ -1,0 +1,16 @@
+.dropDownList {
+  display: none;
+
+  list-style: none;
+  padding: 0;
+  width: fit-content;
+  background-color: #e6e6e6;
+}
+
+.show {
+  display: block;
+}
+
+li {
+  padding: 7px 20px 7px 0;
+}
