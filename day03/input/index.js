@@ -11,21 +11,18 @@ btn.addEventListener("click", () => {
   }
 });
 
-const inputBox = document.querySelector(".inputBox");
-const ina = document.querySelector(".input");
-const i = document.querySelector("i");
-const icon = document.querySelector(".icon");
+const inp = document.querySelector(".input");
 const on = document.querySelector(".fa-eye");
 const non = document.querySelector(".fa-eye-slash");
 
 on.addEventListener("click", () => {
   on.style.display = "none";
   non.style.display = "block";
-  ina.type = "password";
+  inp.type = "password";
 });
 
 non.addEventListener("click", () => {
   on.style.display = "block";
   non.style.display = "none";
-  ina.type = "type";
+  inp.type = "type";
 });

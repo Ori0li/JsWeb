@@ -1,0 +1,32 @@
+span {
+  font-size: 12px;
+  margin: 0px 10px;
+  color: #efefef;
+}
+
+#input {
+  width: 200px;
+  height: 30px;
+  padding: 3px 10px;
+  border-radius: 30px;
+  border: 2px solid #e6e6e6;
+}
+
+#input:focus {
+  border: 2px solid #e6e6e6;
+  outline: none;
+}
+
+button {
+  background-color: #e6e6e6;
+  border: none;
+  border-radius: 30px;
+  padding: 12px 10px;
+  color: #efefef;
+}
+
+.inputBox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
